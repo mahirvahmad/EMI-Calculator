@@ -1,0 +1,17 @@
+.emi-display {
+  display: flex;
+  width: 90%;
+  background-color: rgb(26, 25, 25);
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.emi-display h1{
+  margin: 1rem;
+  color: orangered;
+  font-size: 2rem;
+  font-weight: normal;
+}

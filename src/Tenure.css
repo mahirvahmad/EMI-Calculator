@@ -1,0 +1,53 @@
+* {
+  color: white;
+
+  font-style: normal;
+}
+
+.main-tenure {
+  width: 90%;
+  background-color: rgb(26, 25, 25);
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.is-flex {
+  display: flex;
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h4 {
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 10px auto;
+  font-size: 1rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+h4:hover{
+  color: orangered;
+}
+
+.special {
+  color: orangered;
+}
+
+.interest {
+  margin: 1rem;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.interest .rate {
+  color: orangered;
+}

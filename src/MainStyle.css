@@ -1,0 +1,101 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.app-container {
+  width: 50%;
+  height: 60%;
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-container {
+  width: 90%;
+  background-color: rgb(26, 25, 25);
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h1 {
+  color: gray;
+  font-size: 3vmin;
+}
+
+.amount-container input,
+label {
+  margin: 2rem;
+  color: white;
+}
+
+.amount-container input {
+  margin: 2rem;
+  color: orangered;
+  font-size: 3vmin;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 2px;
+  background: gray;
+  outline-color: orangered;
+}
+
+input[type="text"] {
+  border-block: none;
+  background-color: rgb(26, 25, 25);
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.lbl-amount {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.lbl-amount label {
+  color: orangered;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .app-container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 25px 0;
+    margin: 20px auto;
+  }
+  .app-container h1 {
+    font-size: 2rem;
+  }
+
+  .amount-container label {
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .amount-container input {
+    margin: 0.5rem;
+    color: orangered;
+    font-size: 1.5rem;
+  }
+}
